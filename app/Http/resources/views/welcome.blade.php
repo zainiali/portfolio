@@ -55,13 +55,15 @@
             <span class="floating-shape shape-square bottom-[10rem] right-[12%]"></span>
         </div>
 
-        <header class="sticky top-0 z-50 bg-white/90">
-            <div class="mx-auto flex w-[min(1180px,calc(100%-1.25rem))] flex-wrap items-center justify-between gap-4 py-5">
-                <a class="brand-lockup brand-compact" href="#home">
-                    <span>ZAINAB.exe</span>
-                </a>
-
-                <nav class="header-nav-shell" aria-label="Primary navigation">
+        <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm">
+            <div class="header-inner mx-auto flex w-[min(1180px,calc(100%-1.25rem))] flex-wrap items-center justify-between gap-4 py-4 sm:py-5">
+                <a class="brand-lockup brand-compact" href="#home"><span>ZAINAB.exe</span></a>
+                <button type="button" class="nav-toggle js-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <nav class="header-nav-shell js-nav" aria-label="Primary navigation">
                     <div class="header-nav-list">
                         <a class="nav-chip is-active" href="#about">/ABOUT</a>
                         <a class="nav-chip" href="#skills">/SKILLS</a>

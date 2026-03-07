@@ -1,8 +1,25 @@
 import './bootstrap';
 
 const runPortfolio = () => {
+    const navToggle = document.querySelector('.js-nav-toggle');
+    const nav = document.querySelector('.js-nav');
     const navLinks = Array.from(document.querySelectorAll('.nav-chip'));
     const sections = Array.from(document.querySelectorAll('.portfolio-section[id]'));
+
+    if (navToggle && nav) {
+        navToggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('is-open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        });
+        navLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('is-open');
+                navToggle?.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            });
+        });
+    }
     const contactForm = document.getElementById('contactForm');
     const formStatus = document.getElementById('formStatus');
     const skillBars = Array.from(document.querySelectorAll('.skill-meter-fill'));
