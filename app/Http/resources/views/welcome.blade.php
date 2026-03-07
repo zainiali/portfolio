@@ -104,6 +104,7 @@
 
                         <div class="hero-cta hero-cta-reference">
                             <a class="sticker-btn sticker-btn-dark js-bounce" href="#projects">View Projects</a>
+                            <a class="sticker-btn sticker-btn-white js-bounce" href="{{ asset('build/assets/Zainab-CV.pdf') }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf mr-1"></i>Get CV</a>
                             <a class="sticker-btn sticker-btn-white js-bounce" href="#contact">Contact Me</a>
                         </div>
                     </div>
@@ -150,6 +151,10 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         <span>Status: Available</span>
                                     </span>
+                                    <a href="{{ asset('build/assets/Zainab-CV.pdf') }}" target="_blank" rel="noopener noreferrer" class="about-info-chip about-info-chip-dark" style="text-decoration:none;color:inherit;">
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                        <span>Get CV</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
