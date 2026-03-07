@@ -331,18 +331,23 @@
                                 </p>
 
                                 <div class="contact-detail-list">
-                                    <a class="contact-detail-item" href="mailto:zainab@example.com">
+                                    <a class="contact-detail-item" href="mailto:zainabalirazaofficial@gmail.com">
                                         <span class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></span>
-                                        <span>zainab@example.com</span>
+                                        <span>zainabalirazaofficial@gmail.com</span>
                                     </a>
                                     <div class="contact-detail-item">
                                         <span class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></span>
                                         <span>Remote / Earth</span>
                                     </div>
                                     <div class="contact-social-inline">
-                                        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-                                        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                                        <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+                                        <a href="https://github.com/zainiali" target="_blank" rel="noreferrer" class="contact-detail-item" aria-label="GitHub">
+                                            <span class="contact-detail-icon"><i class="fa-brands fa-github"></i></span>
+                                            <span>GitHub</span>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/zainab-ali-09663931a" target="_blank" rel="noreferrer" class="contact-detail-item" aria-label="LinkedIn">
+                                            <span class="contact-detail-icon"><i class="fa-brands fa-linkedin"></i></span>
+                                            <span>LinkedIn</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
