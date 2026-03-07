@@ -170,27 +170,22 @@
                         </div>
 
                         <div class="stack-reference-grid">
-                            <article class="stack-reference-item"><span class="stack-mini-label">Library</span><strong>React</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Framework</span><strong>Next.js</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Language</span><strong>Python</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Runtime</span><strong>Node.js</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Styling</span><strong>Tailwind</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Database</span><strong>MySQL</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Markup</span><strong>HTML5</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Version</span><strong>Git</strong></article>
-
-                            <article class="stack-reference-item"><span class="stack-mini-label">API</span><strong>GraphQL</strong></article>
-                            <article class="stack-reference-item stack-reference-item-highlight js-hover-lift">
-                                <span class="stack-highlight-dot" aria-hidden="true"></span>
-                                <span class="stack-mini-label">Collab</span>
-                                <strong>GitHub</strong>
-                            </article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Language</span><strong>JavaScript</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Database</span><strong>MongoDB</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Language</span><strong>PHP</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Framework</span><strong>Laravel</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Library</span><strong>GSAP</strong></article>
-                            <article class="stack-reference-item"><span class="stack-mini-label">Language</span><strong>C++</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Library</span><strong>React</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Framework</span><strong>Next.js</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>Python</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Runtime</span><strong>Node.js</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Styling</span><strong>Tailwind</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MySQL</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Markup</span><strong>HTML5</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Version</span><strong>Git</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">API</span><strong>GraphQL</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Collab</span><strong>GitHub</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>JavaScript</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MongoDB</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>PHP</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Framework</span><strong>Laravel</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Library</span><strong>GSAP</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>C++</strong></article>
                         </div>
 
                         <div class="stack-reference-footer">
