@@ -1,6 +1,8 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const destDir = path.join(__dirname, '../public/build/assets');
 const srcFile = path.join(__dirname, '../public/assets/girl.jpg');
 
