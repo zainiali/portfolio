@@ -117,7 +117,7 @@
                                 <div class="about-portrait-label">ZAINAB.exe</div>
                                 <div class="about-portrait-frame">
                                     <img
-                                        src="{{ asset('assets/girl.jpg') }}"
+                                        src="{{ asset('build/assets/girl.jpg') }}"
                                         alt="Portrait illustration of Zainab"
                                         class="about-portrait-image"
                                     >
