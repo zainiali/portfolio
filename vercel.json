@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "php artisan config:cache && php artisan route:cache && php artisan event:cache && php artisan view:cache && npm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "public",
   "functions": {
     "api/index.php": {
