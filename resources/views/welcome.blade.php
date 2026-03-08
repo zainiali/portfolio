@@ -220,13 +220,12 @@
                                     <div class="works-screen works-screen-trading"></div>
                                 </div>
                                 <div class="works-copy">
-                                    <div>
-                                        <h3>Restaurant Booking & Menu Management</h3>
-                                        <p>Full-stack platform enabling customers to browse menus and reserve tables online. Reservation workflow with automated email confirmations, admin dashboard for menu and bookings, scalable APIs.</p>
-                                    </div>
-                                    <a class="works-arrow js-bounce" href="#" aria-label="Restaurant Booking project">
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
+                                    <h3>Restaurant Booking & Menu</h3>
+                                    <p>Full-stack platform for table reservations, menus, and admin dashboard with automated confirmations.</p>
+                                </div>
+                                <div class="works-actions">
+                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -240,13 +239,12 @@
                                     <div class="works-screen works-screen-resume"></div>
                                 </div>
                                 <div class="works-copy">
-                                    <div>
-                                        <h3>FindUpNow – Service Discovery</h3>
-                                        <p>On-demand platform connecting users with nearby service providers. Role-based dashboards, location-based ZIP search, secure auth with email/SMS verification, booking workflow.</p>
-                                    </div>
-                                    <a class="works-arrow js-bounce" href="#" aria-label="FindUpNow project">
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
+                                    <h3>FindUpNow – Service Discovery</h3>
+                                    <p>On-demand platform connecting users with nearby providers. Role-based dashboards, ZIP search, booking.</p>
+                                </div>
+                                <div class="works-actions">
+                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -260,13 +258,12 @@
                                     <div class="works-screen works-screen-trading"></div>
                                 </div>
                                 <div class="works-copy">
-                                    <div>
-                                        <h3>AI-Enhanced Online Examination</h3>
-                                        <p>Web-based exam platform for institutions. Role-based access for admins and students, automated quiz generation and AI grading, real-time AJAX updates, secure auth and notifications.</p>
-                                    </div>
-                                    <a class="works-arrow js-bounce" href="#" aria-label="Exam System project">
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
+                                    <h3>AI-Enhanced Online Examination</h3>
+                                    <p>Web exam platform with automated quiz generation, AI grading, real-time AJAX updates.</p>
+                                </div>
+                                <div class="works-actions">
+                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -280,13 +277,12 @@
                                     <div class="works-screen works-screen-resume"></div>
                                 </div>
                                 <div class="works-copy">
-                                    <div>
-                                        <h3>Executive Dashboard – Student Finance</h3>
-                                        <p>Financial management for tracking fee payments, outstanding balances, and transactions. Automated invoices, analytical reporting, intuitive admin interface for institutions.</p>
-                                    </div>
-                                    <a class="works-arrow js-bounce" href="#" aria-label="Executive Dashboard project">
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
+                                    <h3>Executive Dashboard – Finance</h3>
+                                    <p>Fee payments, balances, automated invoices, analytical reporting for institutions.</p>
+                                </div>
+                                <div class="works-actions">
+                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -300,13 +296,12 @@
                                     <div class="works-screen works-screen-trading"></div>
                                 </div>
                                 <div class="works-copy">
-                                    <div>
-                                        <h3>Student Assessment App (Flutter)</h3>
-                                        <p>Cross-platform app for performance evaluation through quizzes and self-assessment. Role-based access for teachers and students, Firebase auth and real-time sync, performance dashboards.</p>
-                                    </div>
-                                    <a class="works-arrow js-bounce" href="#" aria-label="Flutter Assessment project">
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
+                                    <h3>Student Assessment App (Flutter)</h3>
+                                    <p>Cross-platform app for quizzes and self-assessment. Firebase auth, role-based access, dashboards.</p>
+                                </div>
+                                <div class="works-actions">
+                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Flutter</span>
