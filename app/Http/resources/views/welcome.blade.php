@@ -358,8 +358,11 @@
                                 </div>
                             </div>
 
-                            <form class="contact-form-panel" id="contactForm" action="{{ route('contact.store') }}" method="POST">
-                                @csrf
+                            <form class="contact-form-panel" id="contactForm"
+                                data-emailjs-public-key="{{ config('services.emailjs.public_key') }}"
+                                data-emailjs-service-id="{{ config('services.emailjs.service_id') }}"
+                                data-emailjs-template-id="{{ config('services.emailjs.template_id') }}"
+                                data-emailjs-autoreply-template-id="{{ config('services.emailjs.autoreply_template_id') }}">
                                 <label class="contact-field">
                                     <span>Identity</span>
                                     <input class="contact-input contact-input-flat" type="text" name="name" placeholder="Name / Company" required>
@@ -389,6 +392,8 @@
         </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>

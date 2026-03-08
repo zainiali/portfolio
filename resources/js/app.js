@@ -219,6 +219,16 @@ const runPortfolio = () => {
             return;
         }
 
+        const publicKey = contactForm.dataset.emailjsPublicKey;
+        const serviceId = contactForm.dataset.emailjsServiceId;
+        const templateId = contactForm.dataset.emailjsTemplateId;
+        const autoreplyTemplateId = contactForm.dataset.emailjsAutoreplyTemplateId;
+
+        if (!publicKey || !serviceId || !templateId) {
+            if (formStatus) formStatus.textContent = 'EmailJS not configured. Add credentials to .env';
+            return;
+        }
+
         const submitBtn = contactForm?.querySelector('button[type="submit"]');
         if (submitBtn) {
             submitBtn.disabled = true;
@@ -227,27 +237,22 @@ const runPortfolio = () => {
         if (formStatus) formStatus.textContent = '';
 
         try {
-            const token = document.querySelector('input[name="_token"]')?.value;
-            const response = await fetch(contactForm.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'X-Requested-With': 'XMLHttpRequest',
-                    'Accept': 'application/json',
-                    'X-CSRF-TOKEN': token,
-                },
-            });
-
-            const data = await response.json().catch(() => ({}));
-
-            if (response.ok && data.success) {
-                if (formStatus) formStatus.textContent = data.message || 'Message sent. I\'ll get back to you soon!';
-                contactForm.reset();
-            } else {
-                if (formStatus) formStatus.textContent = data.message || data.errors ? Object.values(data.errors).flat().join(' ') : 'Something went wrong. Try again.';
+            if (typeof emailjs === 'undefined') {
+                throw new Error('EmailJS SDK not loaded');
             }
-        } catch {
-            if (formStatus) formStatus.textContent = 'Network error. Please try again.';
+            emailjs.init(publicKey);
+            await emailjs.sendForm(serviceId, templateId, contactForm);
+            if (autoreplyTemplateId) {
+                await emailjs.send(serviceId, autoreplyTemplateId, {
+                    name,
+                    email,
+                    message,
+                });
+            }
+            if (formStatus) formStatus.textContent = "Message sent! I'll get back to you soon.";
+            contactForm.reset();
+        } catch (err) {
+            if (formStatus) formStatus.textContent = err?.text || 'Something went wrong. Try again.';
         } finally {
             if (submitBtn) {
                 submitBtn.disabled = false;
