@@ -153,7 +153,7 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         <span>Status: Available</span>
                                     </span>
-                                    <a href="{{ asset('build/assets/Zainab-CV.pdf') }}" target="_blank" rel="noopener noreferrer" class="about-info-chip about-info-chip-dark" style="text-decoration:none;color:inherit;">
+                                    <a href="{{ asset('build/assets/Zainab-CV.pdf') }}" target="_blank" rel="noopener noreferrer" class="about-info-chip about-info-chip-dark" style="text-decoration:none;color:var(--white);">
                                         <i class="fa-solid fa-file-pdf"></i>
                                         <span>Get CV</span>
                                     </a>

@@ -14,8 +14,16 @@ if (fs.existsSync(girlSrc)) {
   console.log('Copied girl.jpg to build/assets');
 }
 
-const cvSrc = path.join(assetsDir, 'Zainab-CV.pdf');
-if (fs.existsSync(cvSrc)) {
-  fs.copyFileSync(cvSrc, path.join(destDir, 'Zainab-CV.pdf'));
-  console.log('Copied Zainab-CV.pdf to build/assets');
+// New CV: ZainabAli-Curriculum Vitae.pdf (copied as Zainab-CV.pdf for clean URLs)
+const cvCandidates = ['ZainabAli-Curriculum Vitae.pdf', 'Zainab-CV.pdf'];
+let cvCopied = false;
+for (const name of cvCandidates) {
+  const cvSrc = path.join(assetsDir, name);
+  if (fs.existsSync(cvSrc)) {
+    fs.copyFileSync(cvSrc, path.join(destDir, 'Zainab-CV.pdf'));
+    console.log(`Copied ${name} to build/assets/Zainab-CV.pdf`);
+    cvCopied = true;
+    break;
+  }
 }
+if (!cvCopied) console.warn('No CV PDF found in public/assets');
