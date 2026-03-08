@@ -99,7 +99,7 @@
                             <p class="hero-note-copy">
                                 I build digital products that refuse to be boring.
                             </p>
-                            <p class="hero-note-stack">React • Node • Laravel • MongoDB</p>
+                            <p class="hero-note-stack">Laravel • Flutter • PHP • MySQL • Firebase</p>
                         </div>
 
                         <div class="hero-cta hero-cta-reference">
@@ -177,22 +177,22 @@
                         </div>
 
                         <div class="stack-reference-grid">
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Library</span><strong>React</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Framework</span><strong>Next.js</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>Python</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Runtime</span><strong>Node.js</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Styling</span><strong>Tailwind</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MySQL</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Markup</span><strong>HTML5</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Version</span><strong>Git</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">API</span><strong>GraphQL</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Collab</span><strong>GitHub</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>JavaScript</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MongoDB</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>PHP</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>JavaScript</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Framework</span><strong>Laravel</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Markup</span><strong>HTML5</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Styling</span><strong>Tailwind</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Styling</span><strong>Bootstrap</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Library</span><strong>GSAP</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Language</span><strong>C++</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Mobile</span><strong>Flutter</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MySQL</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>MongoDB</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Firebase</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Supabase</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">API</span><strong>REST</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Version</span><strong>Git</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Collab</span><strong>GitHub</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Other</span><strong>jQuery</strong></article>
                         </div>
 
                         <div class="stack-reference-footer">
@@ -219,21 +219,56 @@
                                 </div>
                                 <div class="works-copy">
                                     <div>
-                                        <h3>StockEasy</h3>
-                                        <p>
-                                            An online stock market platform with stock analysis, chatbot,
-                                            and real-time market support.
-                                        </p>
+                                        <h3>Restaurant Booking & Menu Management</h3>
+                                        <p>Full-stack platform enabling customers to browse menus and reserve tables online. Reservation workflow with automated email confirmations, admin dashboard for menu and bookings, scalable APIs.</p>
                                     </div>
-                                    <a class="works-arrow js-bounce" href="https://example.com" target="_blank" rel="noreferrer" aria-label="Open StockEasy project">
+                                    <a class="works-arrow js-bounce" href="#" aria-label="Restaurant Booking project">
                                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                     </a>
                                 </div>
                                 <div class="works-tags">
-                                    <span class="tag-chip">Django</span>
-                                    <span class="tag-chip">Python</span>
+                                    <span class="tag-chip">Laravel</span>
+                                    <span class="tag-chip">MySQL</span>
+                                    <span class="tag-chip">REST API</span>
+                                </div>
+                            </article>
+
+                            <article class="works-card">
+                                <div class="works-frame">
+                                    <div class="works-screen works-screen-resume"></div>
+                                </div>
+                                <div class="works-copy">
+                                    <div>
+                                        <h3>FindUpNow – Service Discovery</h3>
+                                        <p>On-demand platform connecting users with nearby service providers. Role-based dashboards, location-based ZIP search, secure auth with email/SMS verification, booking workflow.</p>
+                                    </div>
+                                    <a class="works-arrow js-bounce" href="#" aria-label="FindUpNow project">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                                <div class="works-tags">
+                                    <span class="tag-chip">Laravel</span>
                                     <span class="tag-chip">Firebase</span>
-                                    <span class="tag-chip">Websocket</span>
+                                    <span class="tag-chip">API</span>
+                                </div>
+                            </article>
+
+                            <article class="works-card">
+                                <div class="works-frame">
+                                    <div class="works-screen works-screen-trading"></div>
+                                </div>
+                                <div class="works-copy">
+                                    <div>
+                                        <h3>AI-Enhanced Online Examination</h3>
+                                        <p>Web-based exam platform for institutions. Role-based access for admins and students, automated quiz generation and AI grading, real-time AJAX updates, secure auth and notifications.</p>
+                                    </div>
+                                    <a class="works-arrow js-bounce" href="#" aria-label="Exam System project">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                                <div class="works-tags">
+                                    <span class="tag-chip">Laravel</span>
+                                    <span class="tag-chip">AJAX</span>
                                     <span class="tag-chip">MySQL</span>
                                 </div>
                             </article>
@@ -244,20 +279,37 @@
                                 </div>
                                 <div class="works-copy">
                                     <div>
-                                        <h3>ResumeIQ</h3>
-                                        <p>
-                                            A resume analyzer and builder that helps users check resume
-                                            quality, improve structure, and build stronger profiles.
-                                        </p>
+                                        <h3>Executive Dashboard – Student Finance</h3>
+                                        <p>Financial management for tracking fee payments, outstanding balances, and transactions. Automated invoices, analytical reporting, intuitive admin interface for institutions.</p>
                                     </div>
-                                    <a class="works-arrow js-bounce" href="https://example.com" target="_blank" rel="noreferrer" aria-label="Open ResumeIQ project">
+                                    <a class="works-arrow js-bounce" href="#" aria-label="Executive Dashboard project">
                                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                     </a>
                                 </div>
                                 <div class="works-tags">
-                                    <span class="tag-chip">Firebase</span>
+                                    <span class="tag-chip">Laravel</span>
                                     <span class="tag-chip">MySQL</span>
-                                    <span class="tag-chip">Gemini API</span>
+                                    <span class="tag-chip">Dashboard</span>
+                                </div>
+                            </article>
+
+                            <article class="works-card">
+                                <div class="works-frame">
+                                    <div class="works-screen works-screen-trading"></div>
+                                </div>
+                                <div class="works-copy">
+                                    <div>
+                                        <h3>Student Assessment App (Flutter)</h3>
+                                        <p>Cross-platform app for performance evaluation through quizzes and self-assessment. Role-based access for teachers and students, Firebase auth and real-time sync, performance dashboards.</p>
+                                    </div>
+                                    <a class="works-arrow js-bounce" href="#" aria-label="Flutter Assessment project">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                                <div class="works-tags">
+                                    <span class="tag-chip">Flutter</span>
+                                    <span class="tag-chip">Firebase</span>
+                                    <span class="tag-chip">REST API</span>
                                 </div>
                             </article>
                         </div>
@@ -277,42 +329,30 @@
                             <article class="experience-log-card brutalist-card">
                                 <div class="experience-log-marker experience-marker-yellow" aria-hidden="true"></div>
                                 <div class="experience-log-top">
-                                    <h3>Freelance Full-Stack Developer</h3>
-                                    <span class="experience-date-badge">Nov 2025 - Present</span>
+                                    <h3>Full Stack Developer</h3>
+                                    <span class="experience-date-badge">Sep 2025 — Present</span>
                                 </div>
-                                <p class="experience-log-company experience-company-lime">@ Self-Employed</p>
+                                <p class="experience-log-company experience-company-lime">@ Inverzo.Tech</p>
+                                <p class="experience-log-meta-location">Nankana Sahib, Pakistan</p>
                                 <ul class="experience-log-list">
-                                    <li>Building responsive and interactive web applications using HTML, CSS, JavaScript, Laravel, and Node.js.</li>
-                                    <li>Developing modern interfaces and backend flows tailored to client requirements.</li>
-                                    <li>Creating custom digital solutions with a strong focus on usability and clean structure.</li>
+                                    <li>Develop and maintain web and mobile applications using Laravel, Flutter, and REST APIs.</li>
+                                    <li>Build responsive interfaces, integrate backend services, and collaborate with cross-functional teams.</li>
+                                    <li>Deliver scalable, high-performance applications with clean, maintainable code.</li>
                                 </ul>
                             </article>
 
                             <article class="experience-log-card brutalist-card">
                                 <div class="experience-log-marker experience-marker-red" aria-hidden="true"></div>
                                 <div class="experience-log-top">
-                                    <h3>Data Entry Contract</h3>
-                                    <span class="experience-date-badge">Aug 2025 - Nov 2025</span>
+                                    <h3>Full Stack Developer</h3>
+                                    <span class="experience-date-badge">May 2024 — Feb 2026</span>
                                 </div>
-                                <p class="experience-log-company experience-company-pink">@ Tejola India</p>
+                                <p class="experience-log-company experience-company-pink">@ Brand Blur</p>
+                                <p class="experience-log-meta-location">Abu Dhabi, United Arab Emirates</p>
                                 <ul class="experience-log-list">
-                                    <li>Processed and entered large volumes of data with strong attention to detail and accuracy.</li>
-                                    <li>Maintained data quality standards and performed regular reviews across submissions.</li>
-                                    <li>Collaborated with team members to meet daily and weekly delivery targets.</li>
-                                </ul>
-                            </article>
-
-                            <article class="experience-log-card brutalist-card">
-                                <div class="experience-log-marker experience-marker-green" aria-hidden="true"></div>
-                                <div class="experience-log-top">
-                                    <h3>Project Manager</h3>
-                                    <span class="experience-date-badge">Dec 2024 - Aug 2025</span>
-                                </div>
-                                <p class="experience-log-company experience-company-lime">@ Self-Employed</p>
-                                <ul class="experience-log-list">
-                                    <li>Managed digital project timelines, milestones, and communication across multiple builds.</li>
-                                    <li>Coordinated task flow between design, content, and development requirements.</li>
-                                    <li>Ensured projects shipped on time while keeping execution organized and client-focused.</li>
+                                    <li>Developed and maintained web applications using Laravel, PHP, and JavaScript.</li>
+                                    <li>Built responsive user interfaces and integrated APIs for client projects.</li>
+                                    <li>Collaborated with team members to deliver efficient and scalable web solutions.</li>
                                 </ul>
                             </article>
                         </div>
