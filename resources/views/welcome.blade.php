@@ -10,6 +10,9 @@
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="{{ asset('build/assets/resturant.png') }}" as="image">
+    <link rel="preload" href="{{ asset('build/assets/findupnow.png') }}" as="image">
+    <link rel="preload" href="{{ asset('build/assets/executive.png') }}" as="image">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap"
         rel="stylesheet"
@@ -192,6 +195,7 @@
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Firebase</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Supabase</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">API</span><strong>REST</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Tools</span><strong>Cache</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Version</span><strong>Git</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Collab</span><strong>GitHub</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Other</span><strong>jQuery</strong></article>
@@ -217,7 +221,7 @@
                         <div class="works-card-grid">
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/resturant.png') }}" alt="Restaurant Booking & Menu – Tapas Avinyó management suite"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/resturant.png') }}" alt="Restaurant Booking & Menu – Tapas Avinyó management suite" loading="eager" fetchpriority="high" decoding="async"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Restaurant Booking & Menu</h3>
@@ -236,7 +240,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/findupnow.png') }}" alt="FindUpNow – Service Discovery app screenshots"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/findupnow.png') }}" alt="FindUpNow – Service Discovery app screenshots" loading="eager" fetchpriority="high" decoding="async"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>FindUpNow – Service Discovery</h3>
@@ -274,7 +278,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/executive.png') }}" alt="Executive Dashboard – Student admissions management"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/executive.png') }}" alt="Executive Dashboard – Student admissions management" loading="eager" fetchpriority="high" decoding="async"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Executive Dashboard – Finance</h3>
