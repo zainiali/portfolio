@@ -13,6 +13,8 @@
     <link rel="preload" href="{{ asset('build/assets/resturant.png') }}" as="image">
     <link rel="preload" href="{{ asset('build/assets/findupnow.png') }}" as="image">
     <link rel="preload" href="{{ asset('build/assets/executive.png') }}" as="image">
+    <link rel="preload" href="{{ asset('build/assets/ONLINE_EXAM.png') }}" as="image">
+    <link rel="preload" href="{{ asset('build/assets/ASSESEMT.png') }}" as="image">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap"
         rel="stylesheet"
@@ -259,7 +261,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-trading"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/ONLINE_EXAM.png') }}" alt="AI-Enhanced Online Examination – Secure, smart, seamless" loading="eager" fetchpriority="high" decoding="async"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>AI-Enhanced Online Examination</h3>
@@ -297,7 +299,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-trading"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/ASSESEMT.png') }}" alt="Student Assessment App (Flutter)" loading="eager" fetchpriority="high" decoding="async"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Student Assessment App (Flutter)</h3>
