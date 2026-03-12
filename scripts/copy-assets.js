@@ -27,3 +27,12 @@ for (const name of cvCandidates) {
   }
 }
 if (!cvCopied) console.warn('No CV PDF found in public/assets');
+
+const projectImages = ['findupnow.png', 'resturant.png', 'assement.png'];
+for (const name of projectImages) {
+  const src = path.join(assetsDir, name);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, path.join(destDir, name));
+    console.log(`Copied ${name} to build/assets`);
+  }
+}

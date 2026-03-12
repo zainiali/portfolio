@@ -217,7 +217,7 @@
                         <div class="works-card-grid">
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-trading"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/resturant.png') }}" alt="Restaurant Booking & Menu – Tapas Avinyó management suite"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Restaurant Booking & Menu</h3>
@@ -236,7 +236,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-resume"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/findupnow.png') }}" alt="FindUpNow – Service Discovery app screenshots"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>FindUpNow – Service Discovery</h3>
