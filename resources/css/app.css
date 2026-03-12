@@ -884,13 +884,13 @@ button {
     border: 4px solid var(--black);
     background: #edf255;
     box-shadow: var(--offset-md);
-    padding: 0.9rem 0.9rem 1rem;
+    padding: 1.1rem 1.1rem 1.3rem;
 }
 
 .works-showcase-head {
     position: relative;
-    min-height: 2.8rem;
-    margin-bottom: 0.85rem;
+    min-height: 3.6rem;
+    margin-bottom: 1.15rem;
 }
 
 .works-mini-brand {
@@ -920,7 +920,7 @@ button {
 
 .works-card-grid {
     display: grid;
-    gap: 0.9rem;
+    gap: 1.25rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -928,17 +928,17 @@ button {
     border: 4px solid var(--black);
     background: rgba(255, 255, 255, 0.95);
     box-shadow: var(--offset-md);
-    padding: 0.6rem;
+    padding: 0.85rem;
 }
 
 .works-frame {
-    border: 3px solid rgba(0, 0, 0, 0.35);
+    border: 4px solid rgba(0, 0, 0, 0.35);
     background: #d1d5db;
-    padding: 0.35rem;
+    padding: 0.45rem;
 }
 
 .works-screen {
-    min-height: 100px;
+    min-height: 165px;
     border: 3px solid rgba(0, 0, 0, 0.2);
     background-color: #111827;
 }
@@ -986,32 +986,32 @@ button {
 .works-screen-image {
     width: 100%;
     height: 100%;
-    min-height: 100px;
+    min-height: 165px;
     object-fit: cover;
     display: block;
 }
 
 .works-copy {
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
 }
 
 .works-copy h3 {
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     font-weight: 900;
     line-height: 1.15;
     text-transform: uppercase;
 }
 
 .works-copy p {
-    margin: 0.3rem 0 0;
+    margin: 0.45rem 0 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: 0.62rem;
+    font-size: 0.68rem;
     font-weight: 700;
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.72);
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -1019,7 +1019,7 @@ button {
 .works-actions {
     display: flex;
     gap: 0.4rem;
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
     flex-wrap: wrap;
 }
 
@@ -1055,8 +1055,8 @@ button {
 .works-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.25rem;
-    margin-top: 0.5rem;
+    gap: 0.35rem;
+    margin-top: 0.7rem;
 }
 
 .experience-log-shell {
