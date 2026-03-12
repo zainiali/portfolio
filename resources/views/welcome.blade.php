@@ -224,8 +224,8 @@
                                     <p>Full-stack platform for table reservations, menus, and admin dashboard with automated confirmations.</p>
                                 </div>
                                 <div class="works-actions">
-                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
-                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a class="works-btn works-btn-demo js-bounce" href="https://github.com/zainiali/Restaurant-Booking-Menu" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="https://github.com/zainiali/Restaurant-Booking-Menu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -243,8 +243,8 @@
                                     <p>On-demand platform connecting users with nearby providers. Role-based dashboards, ZIP search, booking.</p>
                                 </div>
                                 <div class="works-actions">
-                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
-                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a class="works-btn works-btn-demo js-bounce" href="https://github.com/zainiali/findupnow" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="https://github.com/zainiali/findupnow" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
@@ -300,8 +300,8 @@
                                     <p>Cross-platform app for quizzes and self-assessment. Firebase auth, role-based access, dashboards.</p>
                                 </div>
                                 <div class="works-actions">
-                                    <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
-                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a class="works-btn works-btn-demo js-bounce" href="https://github.com/zainiali/student_assessment" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="https://github.com/zainiali/student_assessment" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Flutter</span>
