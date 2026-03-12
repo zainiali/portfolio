@@ -274,7 +274,7 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-resume"></div>
+                                    <div class="works-screen works-screen-img"><img src="{{ asset('build/assets/executive.png') }}" alt="Executive Dashboard – Student admissions management"></div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Executive Dashboard – Finance</h3>
