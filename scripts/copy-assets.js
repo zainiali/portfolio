@@ -28,7 +28,7 @@ for (const name of cvCandidates) {
 }
 if (!cvCopied) console.warn('No CV PDF found in public/assets');
 
-const projectImages = ['findupnow.png', 'resturant.png', 'assement.png', 'executive.png', 'ASSESEMT.png', 'ONLINE_EXAM.png'];
+const projectImages = ['findupnow.png', 'resturant.png', 'assement.png', 'executive.png'];
 for (const name of projectImages) {
   const src = path.join(assetsDir, name);
   if (fs.existsSync(src)) {
