@@ -217,7 +217,9 @@
                         <div class="works-card-grid">
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-trading"></div>
+                                    <div class="works-screen works-screen-img">
+                                        <img src="{{ asset('build/assets/resturant.png') }}" alt="Food Service Management Platform - Restaurant booking and menu" class="works-screen-image">
+                                    </div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Restaurant Booking & Menu</h3>
@@ -236,7 +238,9 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-resume"></div>
+                                    <div class="works-screen works-screen-img">
+                                        <img src="{{ asset('build/assets/findupnow.png') }}" alt="FindUp Now - Service-based platform" class="works-screen-image">
+                                    </div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>FindUpNow – Service Discovery</h3>
@@ -293,7 +297,9 @@
 
                             <article class="works-card">
                                 <div class="works-frame">
-                                    <div class="works-screen works-screen-trading"></div>
+                                    <div class="works-screen works-screen-img">
+                                        <img src="{{ asset('build/assets/assement.png') }}" alt="Student Assessment System - Flutter app screenshot" class="works-screen-image">
+                                    </div>
                                 </div>
                                 <div class="works-copy">
                                     <h3>Student Assessment App (Flutter)</h3>
