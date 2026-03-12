@@ -282,7 +282,7 @@
                                 </div>
                                 <div class="works-actions">
                                     <a class="works-btn works-btn-demo js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link-alt"></i> Demo</a>
-                                    <a class="works-btn works-btn-source js-bounce" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a class="works-btn works-btn-source js-bounce" href="https://github.com/zainiali/admission" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source</a>
                                 </div>
                                 <div class="works-tags">
                                     <span class="tag-chip">Laravel</span>
