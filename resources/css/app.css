@@ -1403,6 +1403,54 @@ button {
     }
 }
 
+/* Tablet: 641px – 1024px */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .section-pad {
+        padding: 3rem 0;
+    }
+
+    .works-showcase-shell {
+        padding: 1rem;
+    }
+
+    .works-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .works-card {
+        padding: 0.65rem;
+    }
+
+    .works-screen {
+        min-height: 110px;
+    }
+
+    .works-copy h3 {
+        font-size: 0.85rem;
+    }
+
+    .works-copy p {
+        font-size: 0.6rem;
+    }
+
+    .contact-panel-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-panel-shell {
+        padding: 1rem;
+    }
+
+    .stack-reference-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .experience-log-card {
+        padding: 0.9rem 1rem;
+    }
+}
+
 @media (max-width: 767px) {
     .nav-toggle {
         display: flex;
