@@ -195,7 +195,7 @@
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Firebase</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Database</span><strong>Supabase</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">API</span><strong>REST</strong></article>
-                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Tools</span><strong>Cache</strong></article>
+                            <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Methodology</span><strong>MVP</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Version</span><strong>Git</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Collab</span><strong>GitHub</strong></article>
                             <article class="stack-reference-item js-hover-lift"><span class="stack-highlight-dot" aria-hidden="true"></span><span class="stack-mini-label">Other</span><strong>jQuery</strong></article>
